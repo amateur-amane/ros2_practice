@@ -1,0 +1,66 @@
+[0.733s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/amane/ros2_practice']
+[0.733s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/amane/ros2_practice'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f6f719568d0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f6f71aa5a00>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f6f71aa5a00>>, mixin_verb=('list',))
+[0.911s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.911s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.911s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.911s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.912s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.912s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/amane/ros2_practice'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice) by extensions ['ignore', 'ignore_ament_install']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice) by extension 'ignore'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice) by extension 'ignore_ament_install'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice) by extensions ['colcon_pkg']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice) by extension 'colcon_pkg'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice) by extensions ['colcon_meta']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice) by extension 'colcon_meta'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice) by extensions ['ros']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice) by extension 'ros'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice) by extensions ['cmake', 'python']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice) by extension 'cmake'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice) by extension 'python'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice) by extensions ['python_setup_py']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice) by extension 'python_setup_py'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/build) by extensions ['ignore', 'ignore_ament_install']
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/build) by extension 'ignore'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/build) ignored
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/install) by extensions ['ignore', 'ignore_ament_install']
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/install) by extension 'ignore'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/install) ignored
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/log) by extensions ['ignore', 'ignore_ament_install']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/log) by extension 'ignore'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/log) ignored
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/src) by extensions ['ignore', 'ignore_ament_install']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/src) by extension 'ignore'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/src) by extension 'ignore_ament_install'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/src) by extensions ['colcon_pkg']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/src) by extension 'colcon_pkg'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/src) by extensions ['colcon_meta']
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/src) by extension 'colcon_meta'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/src) by extensions ['ros']
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/src) by extension 'ros'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/src) by extensions ['cmake', 'python']
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/src) by extension 'cmake'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/src) by extension 'python'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/src) by extensions ['python_setup_py']
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/src) by extension 'python_setup_py'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/src/my_cpp_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/src/my_cpp_pkg) by extension 'ignore'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/src/my_cpp_pkg) by extension 'ignore_ament_install'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/src/my_cpp_pkg) by extensions ['colcon_pkg']
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/src/my_cpp_pkg) by extension 'colcon_pkg'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/src/my_cpp_pkg) by extensions ['colcon_meta']
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/src/my_cpp_pkg) by extension 'colcon_meta'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/src/my_cpp_pkg) by extensions ['ros']
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/src/my_cpp_pkg) by extension 'ros'
+[1.045s] DEBUG:colcon.colcon_core.package_identification:Package '/home/amane/ros2_practice/src/my_cpp_pkg' with type 'ros.ament_cmake' and name 'my_cpp_pkg'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/src/my_pi_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/src/my_pi_pkg) by extension 'ignore'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/src/my_pi_pkg) by extension 'ignore_ament_install'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/src/my_pi_pkg) by extensions ['colcon_pkg']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/src/my_pi_pkg) by extension 'colcon_pkg'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/src/my_pi_pkg) by extensions ['colcon_meta']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/src/my_pi_pkg) by extension 'colcon_meta'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/src/my_pi_pkg) by extensions ['ros']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amane/ros2_practice/src/my_pi_pkg) by extension 'ros'
+[1.048s] DEBUG:colcon.colcon_core.package_identification:Package '/home/amane/ros2_practice/src/my_pi_pkg' with type 'ros.ament_python' and name 'my_pi_pkg'
+[1.048s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

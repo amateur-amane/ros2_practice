@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/my_pi_pkg/my_pi_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_pi_pkg/my_pi_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/my_pi_pkg/my_pi_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/my_pi_pkg/my_pi_pkg.egg-info/requires.txt
+writing top-level names to ../../build/my_pi_pkg/my_pi_pkg.egg-info/top_level.txt
+reading manifest file '../../build/my_pi_pkg/my_pi_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_pi_pkg/my_pi_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying my_pi_pkg/my_first_node.py -> /home/amane/ros2_practice/build/my_pi_pkg/build/lib/my_pi_pkg
+running install
+running install_lib
+copying /home/amane/ros2_practice/build/my_pi_pkg/build/lib/my_pi_pkg/my_first_node.py -> /home/amane/ros2_practice/install/my_pi_pkg/lib/python3.12/site-packages/my_pi_pkg
+byte-compiling /home/amane/ros2_practice/install/my_pi_pkg/lib/python3.12/site-packages/my_pi_pkg/my_first_node.py to my_first_node.cpython-312.pyc
+  File "/home/amane/ros2_practice/install/my_pi_pkg/lib/python3.12/site-packages/my_pi_pkg/my_first_node.py", line 14
+    self.get_logger().info("Hello"  str(self.counter_))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+running install_data
+running install_egg_info
+removing '/home/amane/ros2_practice/install/my_pi_pkg/lib/python3.12/site-packages/my_pi_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/my_pi_pkg/my_pi_pkg.egg-info to /home/amane/ros2_practice/install/my_pi_pkg/lib/python3.12/site-packages/my_pi_pkg-0.0.0-py3.12.egg-info
+running install_scripts
+Installing py_node script to /home/amane/ros2_practice/install/my_pi_pkg/lib/my_pi_pkg
+writing list of installed files to '/home/amane/ros2_practice/build/my_pi_pkg/install.log'
