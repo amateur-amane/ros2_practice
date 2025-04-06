@@ -1,0 +1,52 @@
+[0.023s] Invoking command in '/home/amane/ros2_practice/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amane/ros2_practice/install/my_pi_pkg:/opt/ros/jazzy /usr/bin/cmake /home/amane/ros2_practice/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/amane/ros2_practice/install/my_cpp_pkg
+[0.334s] -- The C compiler identification is GNU 13.3.0
+[1.022s] -- The CXX compiler identification is GNU 13.3.0
+[1.556s] -- Detecting C compiler ABI info
+[1.847s] -- Detecting C compiler ABI info - done
+[1.858s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.859s] -- Detecting C compile features
+[1.859s] -- Detecting C compile features - done
+[1.961s] -- Detecting CXX compiler ABI info
+[2.233s] -- Detecting CXX compiler ABI info - done
+[2.244s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.245s] -- Detecting CXX compile features
+[2.245s] -- Detecting CXX compile features - done
+[2.272s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.438s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.602s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.851s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.881s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.922s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.963s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.125s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.132s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.251s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.450s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.562s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.834s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.980s] -- Added test 'lint_cmake' to check CMake code style
+[3.983s] -- Added test 'xmllint' to check XML markup files
+[3.985s] -- Configuring done (3.9s)
+[3.994s] -- Generating done (0.0s)
+[3.998s] -- Build files have been written to: /home/amane/ros2_practice/build/my_cpp_pkg
+[4.009s] Invoked command in '/home/amane/ros2_practice/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amane/ros2_practice/install/my_pi_pkg:/opt/ros/jazzy /usr/bin/cmake /home/amane/ros2_practice/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/amane/ros2_practice/install/my_cpp_pkg
+[4.011s] Invoking command in '/home/amane/ros2_practice/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amane/ros2_practice/install/my_pi_pkg:/opt/ros/jazzy /usr/bin/cmake --build /home/amane/ros2_practice/build/my_cpp_pkg -- -j8 -l8
+[4.054s] Invoked command in '/home/amane/ros2_practice/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amane/ros2_practice/install/my_pi_pkg:/opt/ros/jazzy /usr/bin/cmake --build /home/amane/ros2_practice/build/my_cpp_pkg -- -j8 -l8
+[4.064s] Invoking command in '/home/amane/ros2_practice/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amane/ros2_practice/install/my_pi_pkg:/opt/ros/jazzy /usr/bin/cmake --install /home/amane/ros2_practice/build/my_cpp_pkg
+[4.073s] -- Install configuration: ""
+[4.074s] -- Installing: /home/amane/ros2_practice/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[4.074s] -- Installing: /home/amane/ros2_practice/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[4.075s] -- Installing: /home/amane/ros2_practice/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[4.075s] -- Installing: /home/amane/ros2_practice/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[4.076s] -- Installing: /home/amane/ros2_practice/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[4.076s] -- Installing: /home/amane/ros2_practice/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[4.076s] -- Installing: /home/amane/ros2_practice/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[4.077s] -- Installing: /home/amane/ros2_practice/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[4.077s] -- Installing: /home/amane/ros2_practice/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[4.077s] -- Installing: /home/amane/ros2_practice/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[4.077s] -- Installing: /home/amane/ros2_practice/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[4.078s] -- Installing: /home/amane/ros2_practice/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[4.078s] -- Installing: /home/amane/ros2_practice/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[4.079s] -- Installing: /home/amane/ros2_practice/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[4.079s] -- Installing: /home/amane/ros2_practice/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[4.081s] Invoked command in '/home/amane/ros2_practice/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amane/ros2_practice/install/my_pi_pkg:/opt/ros/jazzy /usr/bin/cmake --install /home/amane/ros2_practice/build/my_cpp_pkg
